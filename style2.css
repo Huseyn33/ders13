@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+ 
+}
+body{
     background-color: green;
 }
 .item1{
@@ -10,14 +13,16 @@ margin-left: 500px;
  position: relative;
  top: 100px;
  right: 200px;
- background-color: gray;
+ background-color: white;
+ width: 70vw;
+ padding: 50px;
 }
 img{
     width: 20%;
-  margin-right: 500px;
+
   position:absolute;
-  right: 20px;
-  background-color: gray;
+  right: 300px;
+margin-left: 200px;
 }
 .item{
   display: flex;
@@ -61,4 +66,7 @@ border: 1px solid black;
 #item11{
     font-size: 90px;
     color: greenyellow;
+}
+button{
+    background-color: yellow;
 }
